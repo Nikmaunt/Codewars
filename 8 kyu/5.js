@@ -3,6 +3,10 @@
 Note: Empty arrays should return 0 */.
 
 function findAverage(array) {
-    return array.reduce((a, b) => (a + b)) / array.length;
+  if (array.length > 0) {
+          let average = array.reduce((a, b) => a + b) / array.length
+          return average
+      } else {
+          return 0;
+      }
   }
-  
