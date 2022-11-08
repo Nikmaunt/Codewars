@@ -1,3 +1,4 @@
+
 function highAndLow(numbers){
     let min = numbers.split(' ').reduce((x, y) => Math.min(x, y)).toString()
     let max = numbers.split(' ').reduce((x, y) => Math.max(x, y)).toString()
