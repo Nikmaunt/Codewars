@@ -30,3 +30,8 @@ function wave(str) {
   v.slice(0,i).toLowerCase()+v.slice(i,i+1).toUpperCase()+v.slice(i+1).toLowerCase())
   .filter(v=>v!=v.toLowerCase())
 } */
+
+/*const wave = str => 
+	[...str].map((s, i) => 
+      str.slice(0, i) + s.toUpperCase() + str.slice(i + 1) 
+  ).filter(x => x != str);*/
